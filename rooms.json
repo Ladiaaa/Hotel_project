@@ -1,0 +1,4 @@
+[
+  { "id": "101", "type": "Single", "reserved": false },
+  { "id": "102", "type": "Double", "reserved": false }
+]
