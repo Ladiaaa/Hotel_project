@@ -1,4 +1,7 @@
 import json
+
+print("Версия является учебной")
+
 # Загружаем список номеров из файла
 def load_rooms():
     with open('rooms.json', 'r') as file:
