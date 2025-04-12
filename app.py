@@ -31,3 +31,9 @@ def reserve_room(room_id, guest_name):
 
     # Сохраняем обновленные данные
     save_rooms(rooms)
+
+
+# Тестируем функцию
+reserve_room('101', 'Иван Иванов')
+reserve_room('102', 'Мария Петрова')
+reserve_room('101', 'Алексей Смирнов')  # Этот номер уже забронирован
